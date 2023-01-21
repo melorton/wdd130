@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+:root {
+    --headline-font: Roboto, sans-serif;
+    --paragraph-font: Merriweather, serif;
+}
+
+/*I don't think the above coding is correct becuase the fonts aren't changing */
+body {
+    text-align: center;
+    background-color: #f292b2;
+    font-family: roboto, sans-serif;
+    color:#fff;
+    max-width:600px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Merriweather, serif;
+}
+
+
+ol {
+    color: #000000;
+     text-align: left;
+}
+ol li {
+    text-align: left;
+}
+
+img {
+    width:40%
+}
+
+.list {
+    color: black;
+    text-align: center;
+    font-family: Roboto;
+}
