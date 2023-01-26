@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+:root {
+    --headline-font: Roboto, sans-serif;
+    --paragraph-font: Merriweather, serif;
+}
+body {
+    background-color: #f292b2;
+    color:#fff;
+    font-family: roboto, sans-serif;
+    max-width:600px;
+    margin: 0 auto;
+    text-align: center; /*is this correct? it moves the photo but should the photo itself be aligned*/
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Merriweather, serif;
+}
+#title {
+    font-family: Roboto;
+    Text-align: center;
+}
+#title:hover{
+    color: #000000;
+}
+.education {
+    font-family: Merriweather, serif;
+    font-size: 10px;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+ol {
+    color: #000000;
+    font-size: small;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+ }
+ol li {
+    text-align: left;
+}
+img {
+    width:40%;
+    margin: 10px;
+}
+#atonement{
+    font-family: Merriweather;
+    font-size: 25px;
+    max-width: 255px;
+    margin: 10px auto;  
+}
+#bottom { 
+    color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+    width: 230px;
+    margin: 0 auto;
+}
+ *{
+    border:2px solid blue;
+ }
