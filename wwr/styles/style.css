@@ -88,7 +88,7 @@ main section img {
     padding-bottom: 15px;
 }
 h2 { 
-    color: #a8dadc; /*I added this becuase without it the font color wasn't correct. */
+    color: #a8dadc; /*I added this becuase without it the font color wasn't correct. Is this correct?*/
     margin: 0; 
 }
 .rivers-card, .camping-card, .rapids-card {
