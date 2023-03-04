@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani&family=Roboto&display=swap');
+#content {
+    margin: 0 auto;  
+    max-width: 1600px; 
+}
+body {
+    background-color: #ffffff; 
+    font-family: Biryani, sans-serif, Arial;
+    color:#203B5E;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+#logo_link{
+    
+    justify-self: left;
+    margin: 20px;
+}
+.logo {
+    width: 400px;
+    border: 5px solid #ffffff;   
+    margin: 10px;   
+}
+header {
+    background-color: #78A340;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+nav a {   
+    color: #ffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    margin-top: 30px;
+    align-content: center;
+    
+}
+nav a:hover{
+    background-color: #E96923;
+    color: #203B5E;
+}
+nav {
+    background-color:#78A340;
+    display: flex;
+    
+}
+#chin{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+.history{
+    font-family: Biryani, sans-serif, Arial;
+    grid-column: 4/10;
+    grid-row: 1/1;
+    text-align: center;
+}
+.well{
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+.attorney-table{
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    grid-column: 1/4;
+    grid-row: 4/7;
+}
+.history_para{
+    text-align: center;
+    grid-column: 4/10;
+    grid-row: 2/9;
+}
+footer {
+    background-color: #78A340;
+    color: #ffff;
+    padding: 5px 5px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+}
+.bullet-paragraph{
+    color: #ffffff;
+    text-align: center;
+    grid-column: 1/4;
+    grid-row:1/2;
+   
+}   
+.bullet-item::before {
+    content: "\2022"; 
+    margin: 0.2em;
+}  
+.bullet-item {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin: 0.2em; 
+
+}                  
+.social{
+    text-align: center;
+    padding-top: 15px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.social:hover {
+    transform: scale(1.1);
+}
+
+/*CSS for sub page "Why Judge"*/
+#awards{
+    width: 100%;
+}
+.why_judge, .p2{
+    text-align: center;
+}
+.p2{
+    font-size: 30px;
+}
+.p2grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.benefit_title, .faq_title{
+    text-align: center;
+    
+}
+.benefits{
+    list-style-type: square;
+    border: 5px solid #78A340;
+    padding: 10px;
+    grid-column: 1/3; 
+}
+.faq{
+    grid-column: 3/5;
+    border: 5px solid #78A340;
+    padding: 10px;
+}
+.faq_list{
+    list-style: none;
+}
+
+.sign_up{
+    text-align: center;
+
+}
+.link{
+    color: #203B5E;
+    font-size: 30px;
+    font-family: Roboto, sans-serif, Arial;
+    
+}
+.link{
+    color: #E96923;
+    font-size: 35px;
+    font-family: Roboto, sans-serif, Arial;
+    
+}
+.link:hover {
+    background-color: #203B5E;
+    color: #78A340;
+}
+.kaiser{
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+/*CSS for sub page "Judges Training"*/
+.photo_grid{
+    overflow: hidden;
+}
+.dallin, .witness{
+    width: 48%;
+    margin-top: 40px;    
+}
+.dallin{
+    float: left;    
+}
+.witness{
+    float: right;       
+}
+.training_para, .training{
+    text-align: center;
+}
+.suzanne, .coordinator{
+    width: 900px; 
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+@media screen and (max-width: 900px){
+} 
+    

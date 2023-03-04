@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Arvo:wght@400;700&display=swap');
+:root {
+    --headline-font: Arvo, sans-serif;
+    --paragraph-font: Arvo, serif;
+}
+body{
+   font-family: Arvo, sans-serif, Arial;
+    background-color: #ffffff;
+    
+}
+#ice{
+    width: 100%;
+    
+}
+h1, h4, #weeks, .title, #paragraph{
+    text-align: center;
+  
+}
+.weeks{
+    color: #3863ac;  
+}
+.title{
+    color:black;
+   
+}
+#paragraph{
+    color: #565454;   
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+#blue_box{
+    background-color: #3863ac;
+    height: 100px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+#read, #views, #comments{
+    font-family: Amiri, sans-serif, Arial;
+    color:#ffffff;
+    grid-row: 1/2;
+    text-align: center;
+}
+#read{
+    grid-column: 1/2;
+    
+}
+#views{
+    grid-column: 2/3;
+    
+}
+#comments{
+    grid-column: 3/4;
+   
+}
+
+
+
+overflow:hidden;
