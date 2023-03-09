@@ -60,20 +60,18 @@ nav {
     grid-row: 1/1;
     text-align: center;
 }
-.well{
+.well, .attorney-table{
     width: 600px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     margin-right: 50px;
+}
+.well{
     grid-column: 1/4;
     grid-row: 1/3;
 }
 
 .attorney-table{
-    width: 600px;
-    margin-top: 50px;
-    margin-bottom: 25px;
-    margin-right: 50px;
     grid-column: 1/4;
     grid-row: 4/7;
 }
@@ -97,8 +95,7 @@ footer {
     color: #ffffff;
     text-align: center;
     grid-column: 1/4;
-    grid-row:1/2;
-   
+    grid-row:1/2;  
 }   
 .bullet-item::before {
     content: "\2022"; 
@@ -108,7 +105,6 @@ footer {
     display: inline-block; 
     vertical-align: middle; 
     margin: 0.2em; 
-
 }                  
 .social{
     text-align: center;
@@ -151,9 +147,6 @@ footer {
     grid-column: 3/5;
     border: 5px solid #78A340;
     padding: 10px;
-}
-.faq_list{
-    list-style: none;
 }
 
 .sign_up{
