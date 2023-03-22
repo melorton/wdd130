@@ -146,6 +146,21 @@ a {
     border: 5px solid #78A340;
     padding: 10px;
 }
+.faq_title{
+    margin-bottom: -20px;
+}
+.faq p:nth-of-type(odd) { 
+    padding: 2em 0 0 0; 
+    margin: 0 
+} 
+.faq p:nth-of-type(even) 
+{   margin: 0; 
+    padding: 0; 
+}
+.link_video
+{ color: #E96923; 
+
+}   
 
 .sign_up{
     text-align: left;
@@ -176,7 +191,8 @@ a {
 }
 .dallin, .witness{
     width: 48%;
-    margin-top: 40px;    
+    margin-top: 40px; 
+    margin-bottom: 50px;   
 }
 .dallin{
     float: left;    
@@ -186,6 +202,7 @@ a {
 }
 .training_para{
     text-align: left;
+    margin-bottom: 100px;
 } 
 .training{
     text-align: center;
@@ -196,6 +213,7 @@ a {
     display: block;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 @media screen and (max-width: 900px){
 } 
